@@ -1,0 +1,60 @@
+:root{
+  --bg-primery-color: #F2F2F2;
+  --bg-secondery-color: #DEDED1;
+  --color-details: #000000;
+  --max-width: 900px;
+}
+body{
+background-color: var(--bg-primery-color);
+color: var(--color-details);
+margin: 0 auto;
+padding: 50px;
+max-width: var(--max-width)
+}
+img {
+  max-width: 250px;
+  height: auto;
+  border: none;
+  border-radius: 5px;
+  gap: 5px;
+}
+a{
+  background-color: var(--bg-secondery-color);
+  padding: 10px 20px;
+  text-decoration: none;
+  text-align: center;
+  color: var(--color-details);
+  border-radius: 5px;
+}
+.portrait{
+  margin-top: 20px;
+}
+.card-image {
+  height: 150px;       
+  width: 100%;          
+  object-fit: cover;   
+}
+.card-body{
+  padding: 10px;
+}
+.btn-primary {
+  background-color: var(--bg-secondery-color) !important;
+  border-color: var(--bg-secondery-color) !important;
+  color: var(--color-details) !important;
+}
+
+.btn-primary:hover {
+  background-color: var(--color-details) !important;
+  border-color: var(--color-details) !important;
+  color: var(--bg-secondery-color) !important;
+}
+
+@media (max-width: 900px) {
+  .nav-btn {
+    padding: 5px 10px;
+    font-size: 14px;
+    width: 120px;     
+    display: block;  
+    margin: 0 auto 10px; /
+  }
+}
